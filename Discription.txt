@@ -1,0 +1,38 @@
+### Capstone Project Summary  
+
+**Objective:**  
+Design and implement a secure, scalable, and well-documented IPv4 network for Ethoca and its newly acquired branch, Mastermind, using dynamic routing, authentication, and proper IP addressing.
+
+**Requirements:**  
+1. **Design & Addressing:**  
+   - Create a detailed topology diagram with logical IP allocation using VLSM for public/private addresses.  
+   - Use summarized addressing for eBGP exchanges to minimize routing complexity.  
+   - Public IP: 100.3.xxx.0/22; Private IP: 172.16.xxx.0/21.  
+
+2. **Routing & Security:**  
+   - Implement dynamic routing (OSPF/EIGRP) and eBGP.  
+   - Configure NAT to translate private IPs for external communication.  
+   - Ensure QoS for traffic prioritization (e.g., SSH and web traffic).  
+   - Implement ACLs for access restrictions: e.g., HR can’t access R&D except the supervisor; legal can only use secure web access.  
+
+3. **Network Services:**  
+   - Site-to-site VPN for secure inter-site traffic (10.1.2.xxx/30).  
+   - IPSLAs to monitor primary/backup paths for traffic.  
+
+4. **Implementation:**  
+   - All connections must use appropriate authentication protocols.  
+   - Configure secure console and VTY access (SSHv2 only).  
+   - Encrypt all passwords and display a banner warning.  
+
+5. **Validation:**  
+   - Validate routing, NAT, IPSLAs, QoS, and ACLs with appropriate commands.  
+   - Ensure devices can only access permitted networks.  
+
+**Deliverables:**  
+Submit topology diagrams (Visio preferred), device configurations, routing tables, test results, and documentation (e.g., NAT/QoS rules).  
+
+**Deadlines:**  
+- Phase 1 Design: March 9, 2024  
+- Phase 2 Implementation: Dates TBD  
+
+No Packet Tracer simulations are allowed. All work must be on physical pods in designated labs.
