@@ -44,5 +44,6 @@ This project is focused on designing a secure and scalable IPv4 network infrastr
 
 ## Timeline
 - **Phase 1 Due Date:** March 9, 2024
+- **Phase 2:** Enhancing network redundancy, load balancing, and disaster recovery mechanisms, with further focus on scalability and performance optimization. Estimated completion: May 15, 2024.
 
 This project demonstrates expertise in advanced networking concepts and the ability to design robust, enterprise-level solutions. Feel free to explore the repository for further details!
